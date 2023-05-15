@@ -1,0 +1,35 @@
+log/
+idea
+.git/
+gen-account
+
+# dependencies
+/web/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/web/deploy/rancher/build
+
+# misc
+.DS_Store
+/web/.env.local
+/web/.env.development.local
+/web/.env.test.local
+/web/.env.production.local
+
+# log
+/web/npm-debug.log*
+/web/yarn-debug.log*
+/web/yarn-error.log*
+
+# ide
+.idea
+
+# ra-lib
+/web/src/ra-lib
+/web/src/pages/local
+/web/server
